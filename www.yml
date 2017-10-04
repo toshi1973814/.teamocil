@@ -1,0 +1,11 @@
+windows:
+  - name: sample-three-panes
+    root: ~/workspace/www
+    # layout: tiled
+    # layout: 558c,203x51,0,0[204x31,0,0{134x31,0,0,21,69x31,135,0,22},204x19,0,32{134x19,0,32,23,69x19,135,32,24}]
+    layout: af81,204x51,0,0[205x37,0,0{156x37,0,0,25,48x37,157,0,26},205x13,0,38{126x13,0,38,27,78x13,127,38,28}]
+    panes:
+      - vim
+      - guard
+      - dcl up
+      - dcl ps
